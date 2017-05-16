@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
   repo_name = "#{StefanGeorgiev89}/#{StefanGeorgiev89}" unless repo_name.include?("/")
-  "https://github.com/#{StefanGeorgiev89}.git"
+  "https://github.com/StefanGeorgiev89.git"
 end
-
+#{repo_name}
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
